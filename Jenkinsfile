@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/AyanX0723/Webpage.git'
+                git 'https://github.com/AyanX0723/webpage1.git'
             }
         }
 
@@ -22,4 +22,5 @@ pipeline {
         }
 
     }
+
 }
